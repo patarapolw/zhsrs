@@ -3,12 +3,12 @@ import h from 'hyperscript'
 
 declare global {
   interface Window {
-    revealMd: any;
+    revealPlugins: any;
     speak(s: string, lang?: string): void;
   }
 }
 
-window.revealMd.plugins.markdown.speak = {
+window.revealPlugins.markdown.speak = {
   type: 'lang',
   filter: createIndentedFilter('^^speak', (s, attrs) => {
     return h('.speak', {attrs: {

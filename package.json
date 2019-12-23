@@ -6,8 +6,13 @@
   "private": true,
   "devDependencies": {
     "@types/hyperscript": "^0.0.3",
+    "cssnano": "^4.1.10",
     "hyperscript": "^2.0.2",
     "indented-filter": "^0.1.1",
     "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "build": "parcel build src/*",
+    "edit": "reveal-editor ."
   }
 }
