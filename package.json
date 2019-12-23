@@ -1,0 +1,13 @@
+{
+  "name": "zhsrs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/hyperscript": "^0.0.3",
+    "hyperscript": "^2.0.2",
+    "indented-filter": "^0.1.1",
+    "typescript": "^3.7.4"
+  }
+}
