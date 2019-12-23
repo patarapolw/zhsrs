@@ -13,6 +13,7 @@
   },
   "scripts": {
     "build": "parcel build src/*",
-    "edit": "reveal-editor ."
+    "edit": "reveal-editor .",
+    "quiz": "reveal-quiz ."
   }
 }
