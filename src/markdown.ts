@@ -13,7 +13,7 @@ window.revealPlugins.markdown.speak = {
   filter: createIndentedFilter('^^speak', (s, attrs) => {
     return h('.speak', {attrs: {
       'onclick': `window.speak('${attrs.s || s}', ${attrs.lang || ''})`
-    }}, s).outerHTML
+    }}, s || 'Click to speak').outerHTML
   })
 }
 
