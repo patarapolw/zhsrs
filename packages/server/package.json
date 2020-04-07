@@ -1,20 +1,43 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@zhsrs/server",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@patarapolw/qsearch": "^1.2.1",
+    "@typegoose/typegoose": "^6.4.0",
+    "any-serialize": "^1.4.12",
+    "dayjs": "^1.8.23",
+    "dot-prop": "^5.2.0",
+    "escape-string-regexp": "^2.0.0",
+    "fast-glob": "^3.2.2",
+    "fastify": "^2.13.0",
+    "fastify-cookie": "^3.6.0",
+    "fastify-oas": "^2.6.2",
+    "fastify-session": "^3.3.0",
+    "fastify-static": "^2.6.0",
+    "firebase-admin": "^8.10.0",
+    "handlebars": "^4.7.6",
+    "js-yaml": "^3.13.1",
+    "mongoose": "^5.9.7",
+    "nanoid": "^3.0.2",
+    "runtypes": "^4.2.0",
+    "sqlite": "^4.0.5"
+  },
   "devDependencies": {
     "@types/js-yaml": "^3.12.3",
+    "@types/mongodb": "^3.5.5",
+    "@types/mongoose": "^5.7.8",
+    "@types/nanoid": "^2.1.0",
     "@types/node": "^13.9.8",
-    "handlebars": "^4.7.4",
-    "js-yaml": "^3.13.1",
-    "sqlite": "^3.0.6",
-    "typescript": "^3.8.3"
+    "dotenv": "^8.2.0",
+    "pino-pretty": "^4.0.0",
+    "ts-loader": "^6.2.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^1.7.2"
   }
 }
