@@ -20,7 +20,7 @@
     "firebase-admin": "^8.10.0",
     "handlebars": "^4.7.6",
     "js-yaml": "^3.13.1",
-    "mongoose": "^5.9.7",
+    "mongoose": "^5.9.21",
     "nanoid": "^3.0.2",
     "runtypes": "^4.2.0",
     "sqlite": "^4.0.5"
