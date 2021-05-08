@@ -18,7 +18,7 @@
     "fastify-session": "^3.3.0",
     "fastify-static": "^2.6.0",
     "firebase-admin": "^8.10.0",
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "js-yaml": "^3.13.1",
     "mongoose": "^5.9.7",
     "nanoid": "^3.0.2",
