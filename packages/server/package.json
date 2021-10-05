@@ -16,7 +16,7 @@
     "fastify-cookie": "^3.6.0",
     "fastify-oas": "^2.6.2",
     "fastify-session": "^3.3.0",
-    "fastify-static": "^2.6.0",
+    "fastify-static": "^4.2.4",
     "firebase-admin": "^8.10.0",
     "handlebars": "^4.7.6",
     "js-yaml": "^3.13.1",
